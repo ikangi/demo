@@ -1,0 +1,18 @@
+{
+  "id": "skrbtcil",
+  "name": " 磁力链接与种子下载",
+  "url": "https://skrbtcil.icu",
+  "icon": "https://skrbtcil.icu/favicon.ico",
+  "paths": {
+    "preset": "/search?keyword={k}",
+    "size": "/search?keyword={k}&s=length",
+    "time": "/search?keyword={k}&s=date"
+  },
+  "xpath": {
+    "group": "//ul[@class='list-unstyled']",
+    "magnet": "./li[1]/a[1]/@href",
+    "name": "./li[1]/a[1]",
+    "size": "./li[12]/span[2]",
+    "date": "./li[2]/span[3]",
+    "hot": "./li[8]/span[1]/span[1]"
+  }
